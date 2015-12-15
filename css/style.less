@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: Calibri;
+}
+img{	
+	border: none;
+}		
+ul li{
+	list-style: none;
+}
+input, textarea, select, button{
+	outline: none;	
+	border:none;
+}
+span{
+    font-weight:bold;
+}
+
+
+.page-header{
+    overflow: hidden;
+    
+    .logo{
+        background: url(../images/logoSAP.png) no-repeat 0 0;
+        float:left;
+        width: 78px;
+        height: 39px;
+        margin:10px 0px 10px 20px;
+    }
+    
+    .contact_phone{
+        float: right;
+        font-size: 18px;
+        font-weight: bold;
+        margin:23px 25px 0 0;
+    }
+    
+    .search{
+        float:right;
+        margin:13px 20px 0 0;
+    }
+    
+    .menu-navigation{
+        float: right;
+        margin:17px 10px 0 0;
+        
+        ul{
+            display:none;
+        }
+    }
+}
+
+.boundless_opportunities{
+    background: url(../images/page-image-mobile.png) no-repeat center 0;
+    padding: 40px 20px;
+    
+    h4{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    ul{
+        display: inline-block;
+        font-size: 36px;
+        margin:14px 50px 15px 0px;
+        
+        li{
+            margin-top: 6px;
+            background-color: black;
+            color: white;
+            padding:10px;
+        }
+    }
+    
+    p{
+        font-size: 25px;
+        display: block;
+        width:200px;
+        background-color: white;
+        opacity: 0.95;
+        padding: 23px;
+        position: relative;
+        
+        &:before{
+            position: absolute;
+            width:25px;
+            height:25px;
+            content:'';
+            left: 0;
+            top: 0;
+            background: url(../images/border-up.png) no-repeat 0px 0px;
+        }
+    }
+}
+
+.benefits{
+    margin: 50px 0px;
+    font-size: 25px;
+    
+    .text{
+        
+        .some_text{
+            padding:0 20px;
+            
+            p{
+                padding:20px 30px 80px 0px;
+            }
+        }
+        
+        .quote{
+            padding:0 20px;
+            background-color:#f4f4f4; 
+            font-style: italic;
+            padding:40px 90px 30px 100px;
+            position: relative;
+            
+            .author_of_quote{
+                font-style: normal;
+                font-size: 22px;
+                padding-top: 12px;
+            }
+            
+            &:before{
+                position: absolute;
+                width: 45px;
+                height: 30px;
+                content:'';
+                left: 30px;
+                top: -1px;;
+                background: url(../images/quotes.png) no-repeat 0px 0px;
+                z-index: 10;
+            }
+            &:after{
+                position: absolute;
+                width: 45px;
+                height: 30px;
+                content:'';
+                right: 30px;
+                bottom: -2px;
+                background: url(../images/quotes.png) no-repeat -505px -165px;
+                z-index: 10;
+            }
+        }
+    }
+    
+    span{
+        font-size: 30px;
+        display: block;
+    }
+    
+    .bxslider{
+        li{
+            padding:75px 100px;
+            
+            .slide-image{
+                width: 390px;
+                height: 180px;
+                
+                img{
+                    height: inherit;
+                    margin: 0 auto;
+                }
+            }
+            
+            h2{
+                padding: 90px 0 15px;
+            }
+            
+            p{
+                padding-top:20px;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #008fd6;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+.partners_startups{
+    background-image: url(../images/bg_promt-mobile.png) no-repeat 0 0;
+    
+    .block{
+        margin:55px 30px 0;
+
+        .block-name{
+            font-size: 36px;
+        }
+    }
+}
+
