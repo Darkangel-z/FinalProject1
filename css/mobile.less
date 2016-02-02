@@ -1,0 +1,194 @@
+.page-header{
+    
+    .contact_phone{
+        display:none;
+    }
+    
+    .search{
+        float:right;
+        margin:13px 20px 0 0;
+		padding: 5px;
+		transition: all 100ms ease-out 500ms;
+        position: relative;
+        
+        /**/
+        
+        .popup{
+            box-sizing: border-box;
+            display: none;
+            position: absolute;
+            width: 96vw;
+            padding:20px;
+            top: 100%;
+            right:-175%;
+            z-index: 10;
+            background-color: #f0ae15;
+            border: 1px solid #498af3;
+            box-sizing: border-box;
+
+            form{
+                display: block;
+                overflow: hidden;
+
+                .search-text{
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    width: 70%;
+                    float: right;
+                }
+
+                .search-submit{
+                    border-radius: 5px;
+                    padding: 5px 15px;
+                    margin-left: 10px;
+                    float: right;
+                    width:25%;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        background-color: darkorange;
+                    }
+                }
+            }
+        }
+        &:hover, &:active{
+            transition: all 100ms ease-out 100ms;
+            background-color:#f0ab00;
+            
+            .popup{
+                display: block;
+            }
+        }
+        
+    }
+    
+    .menu-navigation{
+        padding: 5px;
+        float: right;
+        margin:17px 10px 0 0;
+        position: relative;
+        transition: all 500ms ease-out 100ms;
+        
+        ul{
+            display:none;
+            position: absolute;
+            width: 95vw;
+            top: 100%;
+            right:-22%;
+            z-index: 10;
+            background: linear-gradient(to bottom, #f8f8f7, #ffffff);
+            border: 1px solid #498af3;
+            font-size: 25px;
+            font-weight: bold;
+            
+            li{
+                border-bottom: 1px solid #c9c9c9;
+                
+                a{
+                    display: block;
+                    padding:30px;
+                    text-decoration: none;
+                    color: black;
+                    width: inherit;
+                    height: inherit;
+                }
+                
+                a:hover{
+                    color: white;
+                    background-color: #f0ae15;
+                }
+            }
+        }
+        &:hover, &:active{
+            transition: all 500ms ease-out 100ms;
+            background-color:#f0ab00;
+            
+            ul{
+                display: block;
+            }
+        }
+    }
+}
+
+.boundless_opportunities{
+    background: url(../images/page-image-mobile.png) no-repeat center 0;
+    background-size: 200%;
+    
+    p{
+        width:80%;
+    }
+}
+
+.benefits{    
+    .text{
+        .quote{
+            padding:40px 50px 30px 50px;
+        }
+    }
+}
+
+.partners_startups{
+    background: url(../images/bg_promt-mobile.png) no-repeat 0 0;
+    
+    .block{
+        .info{
+            font-size: 42px;
+        }
+    }
+}
+
+.logo_partners{}
+    
+.already_partner{
+    a{
+        .join{
+            font-size: 25px;
+            padding: 35px 80px 35px 40px;
+        }
+    }
+}
+
+.contact-bar{
+    a{
+        display: block;
+        padding:15px 0 15px;
+        
+        .phone{
+            float: left;
+            padding-left: 150px;
+            position: relative;
+
+            &:before{
+                position: absolute;
+                width: 55px;
+                height: 55px;
+                content:'';
+                top: -30%;
+                left: 30px;
+                background: url(../images/phone.png) no-repeat 0 0;
+                z-index: 10;
+            }
+        }
+        .email{
+            float: left;
+            padding-left: 150px;
+
+            &:before{
+                position: absolute;
+                width: 69px;
+                height: 43px;
+                content:'';
+                top: -30%;
+                left: 30px;
+                background: url(../images/mail.png) no-repeat 0 0;
+                z-index: 10;
+            }
+        }
+    }
+}
+
+.page-footer{
+    ul{
+        font-size: 16px;
+    }
+}
